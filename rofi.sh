@@ -9,7 +9,7 @@ call_menu() {
 execute_menu() {
     case $1 in
         ' set wallpaper')
-            feh --randomize --bg-fill ~/Pictures/wallpaper/*.png
+            feh --randomize --bg-fill ~/Picture/wallhaven-*.*
             ;;
         ' start v2rayA')
             echo '200925' | sudo -S systemctl start v2raya.service
